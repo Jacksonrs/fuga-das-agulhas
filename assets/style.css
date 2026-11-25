@@ -1,0 +1,19 @@
+html,
+body,
+.container {
+  margin: 0px;
+  height: 100vh;
+  height: 100dvh;
+  width: 100vw;
+  overflow: hidden;
+  background: radial-gradient(ellipse at center, #123a3e 0%, #071719 100%);
+  /* sem seleção de texto, zoom ou rolagem ao tocar na tela */
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+canvas {
+  display: block;
+}
